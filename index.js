@@ -26,9 +26,7 @@ function viewAll(){
   for(var i = 0; i< toDoItems.length;i++){
     var li = document.createElement('li');
     var textNode = document.createTextNode(toDoItems[i].description);
-    var textNodeStatus = document.createTextNode(toDoItems[i].status);
-    //let editButton = document.createElementById("button");
-    //editButton.innerHTML = "edit";
+    var textNodeStatus = document.createTextNode(toDoItems[i].status);    
     li.appendChild(textNode);
     li.appendChild(document.createElement('br'));
     li.appendChild(textNodeStatus);
