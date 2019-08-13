@@ -1,0 +1,6 @@
+
+THINGS TO DO/FIX:
+1. Fix bug where tasks remaining does not correctly update when task is edited to "complete"
+2. Incorporate feature where tasks have a due date
+3. Create Unit Tests
+4. Recreate task in REACT framework
