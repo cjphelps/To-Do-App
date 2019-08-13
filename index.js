@@ -14,8 +14,7 @@ function newListItem(){
   numTasks++;
   p.innerHTML = "";
   var textNode = document.createTextNode(numTasks + " tasks remaining");
-  p.appendChild(textNode);
-  //document.write(numTasks + " tasks remaining");
+  p.appendChild(textNode);  
   closeViewAll();
   viewAll();
 }
